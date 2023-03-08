@@ -67,7 +67,7 @@ tr {
 
 a {
   text-decoration: none;
-  color: #0fade1;
+  color: #2A514D;
 }
 
 /*
@@ -98,12 +98,12 @@ a {
 .footer {
   background-color: #f5f5f5;
   padding: 20px 30px 0px 30px;
-  color: #888;
+  color: #2A514D;
   border-top: 8px solid #eaeaea;
 }
 
 .footer a {
-  color: #888;
+  color: #2A514D;
 }
 
 .footer--simple {
@@ -118,7 +118,7 @@ a {
 
 .footer__main__signature {
   font-size: 14px;
-  color: #888;
+  color: #2A514D;
   /* @todo gulp-inline-css doesn't parse align; it needs to be duplicated in the HTML template */
   align: left;
 }
@@ -132,14 +132,14 @@ a {
 
 .footer__main__col1__td {
   font-size: 14px;
-  color: #888;
+  color: #2A514D;
   /* @todo gulp-inline-css doesn't parse align; it needs to be duplicated in the HTML template */
   align: left;
 }
 
 .footer__main a > span {
   /* Revert apple blue-link style. */
-  color: #888 !important;
+  color: #2A514D !important;
   text-decoration: none !important;
 }
 
@@ -151,7 +151,7 @@ a {
 
 .footer__main__col2__td {
   font-size: 14px;
-  color: #888;
+  color: #2A514D;
   /* @todo gulp-inline-css doesn't parse align; it needs to be duplicated in the HTML template */
   align: right;
 }
@@ -162,5 +162,22 @@ a {
   padding-left: 10px;
   max-width: 100%;
   max-height: 38px;
+  height: auto;
+}
+
+.footer__caption {
+  font-size: 14px;
+  background-color: #f5f5f5;
+  color: #2A514D;
+  padding: 20px 30px 20px 30px;
+  /* @todo gulp-inline-css doesn't parse align; it needs to be duplicated in the HTML template */
+  align: left;
+}
+
+.banner {
+  background-color: #f5f5f5;
+  border: 0;
+  padding: 5px 30px 5px 30px;
+  max-width: 100%;
   height: auto;
 }
